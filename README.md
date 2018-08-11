@@ -15,7 +15,7 @@ Quick Advanced CSS grid tutorial.
 
 
 **Live link:**
-<a href="https://aheitzen.github.io/gallery-grid/" target="blank">Advanced CSS Grid Tutorial Live Link</a>
+<a href="https://aheitzen.github.io/advanced-css-grid-tutorial/" target="blank">Advanced CSS Grid Tutorial Live Link</a>
 
 **Technologies used**
 * HTML5
