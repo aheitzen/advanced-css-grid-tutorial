@@ -1,3 +1,78 @@
-body {
-	background-color: pink;
+/*wrapped in a media query so the grid code goes away on mobile, images are full width so no extra code is needed*/
+@media (min-width: 720px) {
+	.grid {
+		display: grid;
+		grid-template-columns: 4.06504065% 12.814556717% 18.81533101% 13.008130081% 2.322880372% 8.439798684% 8.594657375% 23.228803717% 8.713372048%;
+		grid-template-rows: 157px auto 57px auto 73px 170px auto;
+	}
+
+	.grid-element:nth-child(1) {
+		grid-column-start: 1;
+		grid-column-end: 5;
+		grid-row-start: 2;
+	}
+
+	.grid-element:nth-child(2) {
+		grid-column-start: 7;
+		grid-column-end: 9;
+		/*grid-row-start: 2; if no grid-row is specified it goes to the top of the page*/
+	}
+
+	.grid-element:nth-child(3) {
+		grid-column-start: 3;
+		grid-column-end: 5;
+		grid-row-start: 4;
+	}
+
+	.grid-element:nth-child(4) {
+		grid-column-start: 8;
+		grid-column-end: 10;
+		grid-row-start: 4;
+	}
+
+	.grid-element:nth-child(5) {
+		grid-column-start: 2;
+		grid-column-end: 4;
+		grid-row-start: 7;
+	}
+
+	.grid-element:nth-child(6) {
+		grid-column-start: 6;
+		grid-column-end: 10;
+		grid-row-start: 6;
+	}
+
 }
+
+img {
+	width: 100%;
+}
+
+#grid-1 {
+	width: 80%;
+}
+
+#grid-4 {
+	width: 70%;
+}
+
+#grid-6 {
+	width: 75%;
+}
+
+@media (max-width: 720px) {
+		#grid-1 {
+	width: 100%;
+}
+
+#grid-4 {
+	width: 100%;
+}
+
+#grid-6 {
+	width: 100%;
+}
+
+
+}
+
